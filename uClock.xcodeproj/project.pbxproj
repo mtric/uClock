@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A005E8B25C1B1BE00EF9B3B /* TimerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7CA257BCDA800B0720F /* TimerRowView.swift */; };
+		1A005E8F25C1B1BE00EF9B3B /* TimerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7CA257BCDA800B0720F /* TimerRowView.swift */; };
+		1A005E9325C1B1C300EF9B3B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7A9257BAEA300B0720F /* WelcomeView.swift */; };
+		1A005E9725C1B1C300EF9B3B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7A9257BAEA300B0720F /* WelcomeView.swift */; };
+		1A4FC49525CAB1CC007692C8 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FC49425CAB1CC007692C8 /* MyTimer.swift */; };
+		1A4FC49625CAB1CC007692C8 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FC49425CAB1CC007692C8 /* MyTimer.swift */; };
+		1A4FC49725CAB1CC007692C8 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FC49425CAB1CC007692C8 /* MyTimer.swift */; };
+		1A4FC4AE25CAB329007692C8 /* MyTimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FC4AD25CAB329007692C8 /* MyTimerData.swift */; };
+		1A4FC4AF25CAB329007692C8 /* MyTimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FC4AD25CAB329007692C8 /* MyTimerData.swift */; };
+		1A4FC4B025CAB329007692C8 /* MyTimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FC4AD25CAB329007692C8 /* MyTimerData.swift */; };
+		1A4FC4B525CAB3F5007692C8 /* MyTimerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FC4B425CAB3F5007692C8 /* MyTimerStore.swift */; };
+		1A4FC4B625CAB3F5007692C8 /* MyTimerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FC4B425CAB3F5007692C8 /* MyTimerStore.swift */; };
+		1A4FC4B725CAB3F5007692C8 /* MyTimerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FC4B425CAB3F5007692C8 /* MyTimerStore.swift */; };
+		1ABC8396257E5C3300B45822 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABC8395257E5C3300B45822 /* AuthenticationServices.framework */; };
+		1ABC83A32581445700B45822 /* AddNewTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC83A22581445700B45822 /* AddNewTimerView.swift */; };
+		1ABEC7A8257BAEA300B0720F /* uClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7A7257BAEA300B0720F /* uClockApp.swift */; };
+		1ABEC7AA257BAEA300B0720F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7A9257BAEA300B0720F /* WelcomeView.swift */; };
+		1ABEC7AC257BAEA400B0720F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABEC7AB257BAEA400B0720F /* Assets.xcassets */; };
+		1ABEC7AF257BAEA400B0720F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABEC7AE257BAEA400B0720F /* Preview Assets.xcassets */; };
+		1ABEC7B8257BB27400B0720F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7B7257BB27400B0720F /* SettingsView.swift */; };
+		1ABEC7C7257BCA1800B0720F /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7C6257BCA1800B0720F /* SettingsRowView.swift */; };
+		1ABEC7CB257BCDA800B0720F /* TimerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7CA257BCDA800B0720F /* TimerRowView.swift */; };
+		1AC339A0257E4766005DFC03 /* AddTaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3399F257E4766005DFC03 /* AddTaskRowView.swift */; };
+		1AC339A9257E4C51005DFC03 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC339A8257E4C51005DFC03 /* ExternalAccessory.framework */; };
+		1AD5E5A925A32406001DBFB4 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD5E5A725A323E9001DBFB4 /* IntentsUI.framework */; };
+		1AD5E5AC25A32409001DBFB4 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD5E5A525A323D7001DBFB4 /* Intents.framework */; };
+		1AD5E67525A4CE90001DBFB4 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD5E5A525A323D7001DBFB4 /* Intents.framework */; };
+		1AD5E67825A4CE91001DBFB4 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5E67725A4CE91001DBFB4 /* IntentHandler.swift */; };
+		1AD5E67F25A4CE91001DBFB4 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD5E5A725A323E9001DBFB4 /* IntentsUI.framework */; };
+		1AD5E68225A4CE91001DBFB4 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5E68125A4CE91001DBFB4 /* IntentViewController.swift */; };
+		1AD5E68525A4CE91001DBFB4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5E68325A4CE91001DBFB4 /* MainInterface.storyboard */; };
+		1AD5E68925A4CE91001DBFB4 /* uClockIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1AD5E67E25A4CE91001DBFB4 /* uClockIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1AD5E68C25A4CE91001DBFB4 /* uClockIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1AD5E67425A4CE90001DBFB4 /* uClockIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1AD5E69725A4CEB8001DBFB4 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5E69625A4CEB8001DBFB4 /* Intents.intentdefinition */; };
+		1AD5E69825A4CEB8001DBFB4 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5E69625A4CEB8001DBFB4 /* Intents.intentdefinition */; };
+		1AD5E69925A4CEB8001DBFB4 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5E69625A4CEB8001DBFB4 /* Intents.intentdefinition */; };
+		1AE2754625C2C83B00CC8A4E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7B7257BB27400B0720F /* SettingsView.swift */; };
+		1AE2754A25C2C83D00CC8A4E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7B7257BB27400B0720F /* SettingsView.swift */; };
+		1AE2754E25C2C84300CC8A4E /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7C6257BCA1800B0720F /* SettingsRowView.swift */; };
+		1AE2755225C2C84300CC8A4E /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABEC7C6257BCA1800B0720F /* SettingsRowView.swift */; };
+		1AE2755E25C2C86500CC8A4E /* AddTaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3399F257E4766005DFC03 /* AddTaskRowView.swift */; };
+		1AE2756225C2C86600CC8A4E /* AddTaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3399F257E4766005DFC03 /* AddTaskRowView.swift */; };
+		1AE2756625C2C86A00CC8A4E /* AddNewTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC83A22581445700B45822 /* AddNewTimerView.swift */; };
+		1AE2756A25C2C86B00CC8A4E /* AddNewTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC83A22581445700B45822 /* AddNewTimerView.swift */; };
+		1AE5C60425D1C6ED007BDB2E /* ChangeTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C60325D1C6ED007BDB2E /* ChangeTimerView.swift */; };
+		1AE5C60525D1C6ED007BDB2E /* ChangeTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C60325D1C6ED007BDB2E /* ChangeTimerView.swift */; };
+		1AE5C60625D1C6ED007BDB2E /* ChangeTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C60325D1C6ED007BDB2E /* ChangeTimerView.swift */; };
+		1AE5C60E25D2A165007BDB2E /* SiriButtonIntentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C60D25D2A165007BDB2E /* SiriButtonIntentController.swift */; };
+		1AE5C60F25D2A165007BDB2E /* SiriButtonIntentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C60D25D2A165007BDB2E /* SiriButtonIntentController.swift */; };
+		1AE5C61025D2A165007BDB2E /* SiriButtonIntentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C60D25D2A165007BDB2E /* SiriButtonIntentController.swift */; };
+		1AE5C61525D2AB0F007BDB2E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C61425D2AB0F007BDB2E /* AboutView.swift */; };
+		1AE5C61625D2AB0F007BDB2E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C61425D2AB0F007BDB2E /* AboutView.swift */; };
+		1AE5C61725D2AB0F007BDB2E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C61425D2AB0F007BDB2E /* AboutView.swift */; };
+		1AE5C62225D2E0C8007BDB2E /* StartTaskIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C62125D2E0C8007BDB2E /* StartTaskIntentHandler.swift */; };
+		1AE5C62325D2E0C8007BDB2E /* StartTaskIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C62125D2E0C8007BDB2E /* StartTaskIntentHandler.swift */; };
+		1AE5C62425D2E0C8007BDB2E /* StartTaskIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C62125D2E0C8007BDB2E /* StartTaskIntentHandler.swift */; };
+		1AE5C62925D2E0D7007BDB2E /* StopTaskIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C62825D2E0D7007BDB2E /* StopTaskIntentHandler.swift */; };
+		1AE5C62A25D2E0D7007BDB2E /* StopTaskIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C62825D2E0D7007BDB2E /* StopTaskIntentHandler.swift */; };
+		1AE5C62B25D2E0D7007BDB2E /* StopTaskIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5C62825D2E0D7007BDB2E /* StopTaskIntentHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD5E68725A4CE91001DBFB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ABEC79C257BAEA300B0720F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD5E67D25A4CE91001DBFB4;
+			remoteInfo = MyHoursIntentUI;
+		};
+		1AD5E68A25A4CE91001DBFB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ABEC79C257BAEA300B0720F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD5E67325A4CE90001DBFB4;
+			remoteInfo = MyHoursIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AD5E69325A4CE91001DBFB4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1AD5E68C25A4CE91001DBFB4 /* uClockIntent.appex in Embed App Extensions */,
+				1AD5E68925A4CE91001DBFB4 /* uClockIntentUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A4FC49425CAB1CC007692C8 /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
+		1A4FC4AD25CAB329007692C8 /* MyTimerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimerData.swift; sourceTree = "<group>"; };
+		1A4FC4B425CAB3F5007692C8 /* MyTimerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimerStore.swift; sourceTree = "<group>"; };
+		1ABC8395257E5C3300B45822 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		1ABC83A22581445700B45822 /* AddNewTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTimerView.swift; sourceTree = "<group>"; };
+		1ABEC7A4257BAEA300B0720F /* uClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABEC7A7257BAEA300B0720F /* uClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uClockApp.swift; sourceTree = "<group>"; };
+		1ABEC7A9257BAEA300B0720F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		1ABEC7AB257BAEA400B0720F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ABEC7AE257BAEA400B0720F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ABEC7B0257BAEA400B0720F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABEC7B7257BB27400B0720F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1ABEC7C6257BCA1800B0720F /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		1ABEC7CA257BCDA800B0720F /* TimerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerRowView.swift; sourceTree = "<group>"; };
+		1AC3399F257E4766005DFC03 /* AddTaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskRowView.swift; sourceTree = "<group>"; };
+		1AC339A5257E4C2B005DFC03 /* uClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uClock.entitlements; sourceTree = "<group>"; };
+		1AC339A8257E4C51005DFC03 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		1AD5E5A525A323D7001DBFB4 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		1AD5E5A725A323E9001DBFB4 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		1AD5E67425A4CE90001DBFB4 /* uClockIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = uClockIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD5E67725A4CE91001DBFB4 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		1AD5E67925A4CE91001DBFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD5E67E25A4CE91001DBFB4 /* uClockIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = uClockIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD5E68125A4CE91001DBFB4 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		1AD5E68425A4CE91001DBFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1AD5E68625A4CE91001DBFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD5E69625A4CEB8001DBFB4 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		1AD5E6A025A4D063001DBFB4 /* uClockIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uClockIntent.entitlements; sourceTree = "<group>"; };
+		1AE5C60325D1C6ED007BDB2E /* ChangeTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeTimerView.swift; sourceTree = "<group>"; };
+		1AE5C60D25D2A165007BDB2E /* SiriButtonIntentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriButtonIntentController.swift; sourceTree = "<group>"; };
+		1AE5C61425D2AB0F007BDB2E /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		1AE5C62125D2E0C8007BDB2E /* StartTaskIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTaskIntentHandler.swift; sourceTree = "<group>"; };
+		1AE5C62825D2E0D7007BDB2E /* StopTaskIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopTaskIntentHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABEC7A1257BAEA300B0720F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABC8396257E5C3300B45822 /* AuthenticationServices.framework in Frameworks */,
+				1AD5E5A925A32406001DBFB4 /* IntentsUI.framework in Frameworks */,
+				1AD5E5AC25A32409001DBFB4 /* Intents.framework in Frameworks */,
+				1AC339A9257E4C51005DFC03 /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD5E67125A4CE90001DBFB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD5E67525A4CE90001DBFB4 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD5E67B25A4CE91001DBFB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD5E67F25A4CE91001DBFB4 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABC83AC25822F9600B45822 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1ABEC7A9257BAEA300B0720F /* WelcomeView.swift */,
+				1ABEC7CA257BCDA800B0720F /* TimerRowView.swift */,
+				1ABC83A22581445700B45822 /* AddNewTimerView.swift */,
+				1AE5C60325D1C6ED007BDB2E /* ChangeTimerView.swift */,
+				1AC3399F257E4766005DFC03 /* AddTaskRowView.swift */,
+				1ABEC7B7257BB27400B0720F /* SettingsView.swift */,
+				1ABEC7C6257BCA1800B0720F /* SettingsRowView.swift */,
+				1AE5C61425D2AB0F007BDB2E /* AboutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1ABC83AE2582311700B45822 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A4FC49425CAB1CC007692C8 /* MyTimer.swift */,
+				1A4FC4AD25CAB329007692C8 /* MyTimerData.swift */,
+				1A4FC4B425CAB3F5007692C8 /* MyTimerStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1ABEC79B257BAEA300B0720F = {
+			isa = PBXGroup;
+			children = (
+				1ABEC7A6257BAEA300B0720F /* uClock */,
+				1AD5E67625A4CE91001DBFB4 /* uClockIntent */,
+				1AD5E68025A4CE91001DBFB4 /* uClockIntentUI */,
+				1ABEC7A5257BAEA300B0720F /* Products */,
+				1AC339A7257E4C51005DFC03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABEC7A5257BAEA300B0720F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABEC7A4257BAEA300B0720F /* uClock.app */,
+				1AD5E67425A4CE90001DBFB4 /* uClockIntent.appex */,
+				1AD5E67E25A4CE91001DBFB4 /* uClockIntentUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABEC7A6257BAEA300B0720F /* uClock */ = {
+			isa = PBXGroup;
+			children = (
+				1AC339A5257E4C2B005DFC03 /* uClock.entitlements */,
+				1ABEC7A7257BAEA300B0720F /* uClockApp.swift */,
+				1ABC83AC25822F9600B45822 /* Views */,
+				1ABC83AE2582311700B45822 /* Model */,
+				1AD5E5B225A32874001DBFB4 /* ViewModel */,
+				1ABEC7AB257BAEA400B0720F /* Assets.xcassets */,
+				1ABEC7B0257BAEA400B0720F /* Info.plist */,
+				1AD5E69625A4CEB8001DBFB4 /* Intents.intentdefinition */,
+				1ABEC7AD257BAEA400B0720F /* Preview Content */,
+			);
+			path = uClock;
+			sourceTree = "<group>";
+		};
+		1ABEC7AD257BAEA400B0720F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1ABEC7AE257BAEA400B0720F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AC339A7257E4C51005DFC03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5E5A725A323E9001DBFB4 /* IntentsUI.framework */,
+				1AD5E5A525A323D7001DBFB4 /* Intents.framework */,
+				1ABC8395257E5C3300B45822 /* AuthenticationServices.framework */,
+				1AC339A8257E4C51005DFC03 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AD5E5B225A32874001DBFB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1AE5C60D25D2A165007BDB2E /* SiriButtonIntentController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1AD5E67625A4CE91001DBFB4 /* uClockIntent */ = {
+			isa = PBXGroup;
+			children = (
+				1AE5C62F25D2E0DE007BDB2E /* Intents */,
+				1AD5E6A025A4D063001DBFB4 /* uClockIntent.entitlements */,
+				1AD5E67725A4CE91001DBFB4 /* IntentHandler.swift */,
+				1AD5E67925A4CE91001DBFB4 /* Info.plist */,
+			);
+			path = uClockIntent;
+			sourceTree = "<group>";
+		};
+		1AD5E68025A4CE91001DBFB4 /* uClockIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5E68125A4CE91001DBFB4 /* IntentViewController.swift */,
+				1AD5E68325A4CE91001DBFB4 /* MainInterface.storyboard */,
+				1AD5E68625A4CE91001DBFB4 /* Info.plist */,
+			);
+			path = uClockIntentUI;
+			sourceTree = "<group>";
+		};
+		1AE5C62F25D2E0DE007BDB2E /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				1AE5C62125D2E0C8007BDB2E /* StartTaskIntentHandler.swift */,
+				1AE5C62825D2E0D7007BDB2E /* StopTaskIntentHandler.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABEC7A3257BAEA300B0720F /* uClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABEC7B3257BAEA400B0720F /* Build configuration list for PBXNativeTarget "uClock" */;
+			buildPhases = (
+				1ABEC7A0257BAEA300B0720F /* Sources */,
+				1ABEC7A1257BAEA300B0720F /* Frameworks */,
+				1ABEC7A2257BAEA300B0720F /* Resources */,
+				1AD5E69325A4CE91001DBFB4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD5E68825A4CE91001DBFB4 /* PBXTargetDependency */,
+				1AD5E68B25A4CE91001DBFB4 /* PBXTargetDependency */,
+			);
+			name = uClock;
+			productName = MyHours;
+			productReference = 1ABEC7A4257BAEA300B0720F /* uClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AD5E67325A4CE90001DBFB4 /* uClockIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD5E69025A4CE91001DBFB4 /* Build configuration list for PBXNativeTarget "uClockIntent" */;
+			buildPhases = (
+				1AD5E67025A4CE90001DBFB4 /* Sources */,
+				1AD5E67125A4CE90001DBFB4 /* Frameworks */,
+				1AD5E67225A4CE90001DBFB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uClockIntent;
+			productName = MyHoursIntent;
+			productReference = 1AD5E67425A4CE90001DBFB4 /* uClockIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1AD5E67D25A4CE91001DBFB4 /* uClockIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD5E68D25A4CE91001DBFB4 /* Build configuration list for PBXNativeTarget "uClockIntentUI" */;
+			buildPhases = (
+				1AD5E67A25A4CE91001DBFB4 /* Sources */,
+				1AD5E67B25A4CE91001DBFB4 /* Frameworks */,
+				1AD5E67C25A4CE91001DBFB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uClockIntentUI;
+			productName = MyHoursIntentUI;
+			productReference = 1AD5E67E25A4CE91001DBFB4 /* uClockIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABEC79C257BAEA300B0720F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1ABEC7A3257BAEA300B0720F = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1AD5E67325A4CE90001DBFB4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1AD5E67D25A4CE91001DBFB4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 1ABEC79F257BAEA300B0720F /* Build configuration list for PBXProject "uClock" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ABEC79B257BAEA300B0720F;
+			productRefGroup = 1ABEC7A5257BAEA300B0720F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABEC7A3257BAEA300B0720F /* uClock */,
+				1AD5E67325A4CE90001DBFB4 /* uClockIntent */,
+				1AD5E67D25A4CE91001DBFB4 /* uClockIntentUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABEC7A2257BAEA300B0720F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABEC7AF257BAEA400B0720F /* Preview Assets.xcassets in Resources */,
+				1ABEC7AC257BAEA400B0720F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD5E67225A4CE90001DBFB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD5E67C25A4CE91001DBFB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD5E68525A4CE91001DBFB4 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABEC7A0257BAEA300B0720F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE5C61525D2AB0F007BDB2E /* AboutView.swift in Sources */,
+				1A4FC4B525CAB3F5007692C8 /* MyTimerStore.swift in Sources */,
+				1ABEC7AA257BAEA300B0720F /* WelcomeView.swift in Sources */,
+				1AD5E69725A4CEB8001DBFB4 /* Intents.intentdefinition in Sources */,
+				1AE5C62925D2E0D7007BDB2E /* StopTaskIntentHandler.swift in Sources */,
+				1ABEC7CB257BCDA800B0720F /* TimerRowView.swift in Sources */,
+				1ABEC7A8257BAEA300B0720F /* uClockApp.swift in Sources */,
+				1A4FC4AE25CAB329007692C8 /* MyTimerData.swift in Sources */,
+				1AE5C60E25D2A165007BDB2E /* SiriButtonIntentController.swift in Sources */,
+				1AC339A0257E4766005DFC03 /* AddTaskRowView.swift in Sources */,
+				1AE5C60425D1C6ED007BDB2E /* ChangeTimerView.swift in Sources */,
+				1A4FC49525CAB1CC007692C8 /* MyTimer.swift in Sources */,
+				1ABEC7B8257BB27400B0720F /* SettingsView.swift in Sources */,
+				1ABC83A32581445700B45822 /* AddNewTimerView.swift in Sources */,
+				1AE5C62225D2E0C8007BDB2E /* StartTaskIntentHandler.swift in Sources */,
+				1ABEC7C7257BCA1800B0720F /* SettingsRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD5E67025A4CE90001DBFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE5C61625D2AB0F007BDB2E /* AboutView.swift in Sources */,
+				1A4FC4B625CAB3F5007692C8 /* MyTimerStore.swift in Sources */,
+				1A005E8B25C1B1BE00EF9B3B /* TimerRowView.swift in Sources */,
+				1AE5C62A25D2E0D7007BDB2E /* StopTaskIntentHandler.swift in Sources */,
+				1AE2755E25C2C86500CC8A4E /* AddTaskRowView.swift in Sources */,
+				1AE2756625C2C86A00CC8A4E /* AddNewTimerView.swift in Sources */,
+				1AE5C60F25D2A165007BDB2E /* SiriButtonIntentController.swift in Sources */,
+				1A4FC4AF25CAB329007692C8 /* MyTimerData.swift in Sources */,
+				1AD5E69825A4CEB8001DBFB4 /* Intents.intentdefinition in Sources */,
+				1AE5C60525D1C6ED007BDB2E /* ChangeTimerView.swift in Sources */,
+				1A4FC49625CAB1CC007692C8 /* MyTimer.swift in Sources */,
+				1A005E9325C1B1C300EF9B3B /* WelcomeView.swift in Sources */,
+				1AE2754E25C2C84300CC8A4E /* SettingsRowView.swift in Sources */,
+				1AD5E67825A4CE91001DBFB4 /* IntentHandler.swift in Sources */,
+				1AE5C62325D2E0C8007BDB2E /* StartTaskIntentHandler.swift in Sources */,
+				1AE2754625C2C83B00CC8A4E /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD5E67A25A4CE91001DBFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE5C61725D2AB0F007BDB2E /* AboutView.swift in Sources */,
+				1A4FC4B725CAB3F5007692C8 /* MyTimerStore.swift in Sources */,
+				1A005E8F25C1B1BE00EF9B3B /* TimerRowView.swift in Sources */,
+				1AE5C62B25D2E0D7007BDB2E /* StopTaskIntentHandler.swift in Sources */,
+				1AE2756225C2C86600CC8A4E /* AddTaskRowView.swift in Sources */,
+				1AE2756A25C2C86B00CC8A4E /* AddNewTimerView.swift in Sources */,
+				1AE5C61025D2A165007BDB2E /* SiriButtonIntentController.swift in Sources */,
+				1A4FC4B025CAB329007692C8 /* MyTimerData.swift in Sources */,
+				1AD5E69925A4CEB8001DBFB4 /* Intents.intentdefinition in Sources */,
+				1AE5C60625D1C6ED007BDB2E /* ChangeTimerView.swift in Sources */,
+				1A4FC49725CAB1CC007692C8 /* MyTimer.swift in Sources */,
+				1A005E9725C1B1C300EF9B3B /* WelcomeView.swift in Sources */,
+				1AE2755225C2C84300CC8A4E /* SettingsRowView.swift in Sources */,
+				1AD5E68225A4CE91001DBFB4 /* IntentViewController.swift in Sources */,
+				1AE5C62425D2E0C8007BDB2E /* StartTaskIntentHandler.swift in Sources */,
+				1AE2754A25C2C83D00CC8A4E /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AD5E68825A4CE91001DBFB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD5E67D25A4CE91001DBFB4 /* uClockIntentUI */;
+			targetProxy = 1AD5E68725A4CE91001DBFB4 /* PBXContainerItemProxy */;
+		};
+		1AD5E68B25A4CE91001DBFB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD5E67325A4CE90001DBFB4 /* uClockIntent */;
+			targetProxy = 1AD5E68A25A4CE91001DBFB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AD5E68325A4CE91001DBFB4 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD5E68425A4CE91001DBFB4 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ABEC7B1257BAEA400B0720F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_BUILD = 8;
+				APP_VERSION = 0.1.2;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ABEC7B2257BAEA400B0720F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_BUILD = 8;
+				APP_VERSION = 0.1.2;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABEC7B4257BAEA400B0720F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = uClock/uClock.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_ASSET_PATHS = "\"uClock/Preview Content\"";
+				DEVELOPMENT_TEAM = U58FMHRL8Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = uClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ericwalter.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev.ericwalter.testprofile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ABEC7B5257BAEA400B0720F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = uClock/uClock.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_ASSET_PATHS = "\"uClock/Preview Content\"";
+				DEVELOPMENT_TEAM = U58FMHRL8Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = uClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ericwalter.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev.ericwalter.testprofile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AD5E68E25A4CE91001DBFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = U58FMHRL8Z;
+				INFOPLIST_FILE = uClockIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ericwalter.test.uClockIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard profile";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD5E68F25A4CE91001DBFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = U58FMHRL8Z;
+				INFOPLIST_FILE = uClockIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ericwalter.test.uClockIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard profile";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AD5E69125A4CE91001DBFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = uClockIntent/uClockIntent.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = U58FMHRL8Z;
+				INFOPLIST_FILE = uClockIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ericwalter.test.MyHoursIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Siri Intent";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD5E69225A4CE91001DBFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = uClockIntent/uClockIntent.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = U58FMHRL8Z;
+				INFOPLIST_FILE = uClockIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ericwalter.test.MyHoursIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Siri Intent";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABEC79F257BAEA300B0720F /* Build configuration list for PBXProject "uClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABEC7B1257BAEA400B0720F /* Debug */,
+				1ABEC7B2257BAEA400B0720F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABEC7B3257BAEA400B0720F /* Build configuration list for PBXNativeTarget "uClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABEC7B4257BAEA400B0720F /* Debug */,
+				1ABEC7B5257BAEA400B0720F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD5E68D25A4CE91001DBFB4 /* Build configuration list for PBXNativeTarget "uClockIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD5E68E25A4CE91001DBFB4 /* Debug */,
+				1AD5E68F25A4CE91001DBFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD5E69025A4CE91001DBFB4 /* Build configuration list for PBXNativeTarget "uClockIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD5E69125A4CE91001DBFB4 /* Debug */,
+				1AD5E69225A4CE91001DBFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABEC79C257BAEA300B0720F /* Project object */;
+}
